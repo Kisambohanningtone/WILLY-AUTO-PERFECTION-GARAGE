@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Willy Auto Perfection Garage - About Us</title>
+</head>
+<body>
+
+ <header>
+    <h1>About Willy Auto Perfection Garage</h1>
+  </header>
+
+  <section id="about">
+    <div class="about-container">
+      <!-- Text Content -->
+      <div class="about-text">
+       <h2>Why Choose Us</h2>
+       <p>Experienced Technicians: Our team consists of highly skilled technicians with years of experience in automotive repair and maintenance.</p>
+       <p>Quality Parts and Equipment: We use only high-quality parts and state-of-the-art equipment to ensure the best possible results.</p>
+       <p>Customer Satisfaction: We prioritise customer satisfaction and strive to exceed our customers' expectations with every service.</p>
+       <p>Affordable Pricing: We offer competitive pricing for all our services, without compromising on quality.</p>
+      </div>
+
+      <!-- Company Image -->
+      <div class="about-image">
+        <img src="{{ url_for('static', filename='Cars/ABOUT.jpeg') }}" alt="Willy Auto Perfection Garage">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <!-- Top Buttons -->
+    <div class="footer-top">
+    
+     <div class="footer-contact">
+       <p>Call Us:</p>
+       <a href="tel:0743161326">0782 817 395</a>
+       <span> | </span>
+       <a href="tel:0731812187">0710 817 390</a>
+      </div>
+   </div>
+     
+
+    <!-- Columns -->
+    <div class="footer-columns">
+     <!-- Column 1 -->
+     <div class="footer-col">
+       <h3>Willy Auto Perfection Garage</h3>
+       <p>Engineered for Perfection. Delivered with Pride.</p>
+       <p>Banana Limuru Road, Kiambu County</p>
+       <p>Address no. 59</p>
+       <p>Code 00200 City Square Nairobi.</p>
+     </div>
+
+      <!-- Column 2 -->
+      <div class="footer-col">
+       <h3>Quick Links</h3>
+       <ul>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('service') }}">Services</a></li>
+         <li><a href="{{ url_for('about') }}">About Us</a></li>
+         <li><a href="{{ url_for('contact') }}">Contact</a></li>
+       </ul>
+     </div>
+
+     <!-- Column 3 -->
+     <footer class="site-footer">
+        <div class="footer-columns">
+          <div class="footer-col">
+           <h3>Services</h3>
+            <ul>
+             <li><a href="{{ url_for('service') }}#Upholstery">Upholstery</a></li>
+             <li><a href="{{ url_for('service') }}#Wheel-Alignment">Wheel Alignment</a></li>
+             <li><a href="{{ url_for('service') }}#Diagnostic-Services">Diagnostic Services</a></li>
+             <li><a href="{{ url_for('service') }}#Arc-Welding">Arc Welding</a></li>
+             <li><a href="{{ url_for('service') }}#Pre-Purchase-Inspection">Pre-Purchase Inspection</a></li>
+             <li><a href="{{ url_for('service') }}#Suspension-and-Steering-Repairs">Suspension and Steering Repairs</a></li>
+             <li><a href="{{ url_for('service') }}#Air-Conditioning-and-Heating-Repairs">Air Conditioning and Heating Repairs</a></li>
+             <li><a href="{{ url_for('service') }}#Electrical-System-Repairs">Electrical System Repairs</a></li>
+             <li><a href="{{ url_for('service') }}#Transmission-Repairs">Transmission Repairs</a></li>
+             <li><a href="{{ url_for('service') }}#Brake-Services">Brake Services</a></li>
+             <li><a href="{{ url_for('service') }}#Routine-Maintenance">Routine Maintenance (Oil Changes, Fluid Checks)</a></li>
+             <li><a href="{{ url_for('service') }}#Spray-Painting">Spray painting </a></li>
+             <li><a href="{{ url_for('service') }}#Panel-Beating">Panel Beating</a></li>
+             <li><a href="{{ url_for('service') }}#Car-Accessories">Car accessories</a></li>
+             <li><a href="{{ url_for('service') }}#Car-Buffing">Car Buffing</a></li>
+             <li><a href="{{ url_for('service') }}#Salvager-Repair">Salvager Repair</a></li>
+             <li><a href="{{ url_for('service') }}#Storage-and-Packing">Storage and packing</a></li>
+           </ul>
+          </div>
+       </div>
+     </footer>
+       
+
+      <!-- Column 4 -->
+      <div class="footer-col">
+        <h3>Connect With Us</h3>
+        <div class="social-icons">
+         <a href="https://www.tiktok.com/@jentrixautogarage/video/7596340934879612171" target="_blank">
+           <img src="{{ url_for('static', filename='Cars/tiktok.png') }}" alt="TikTok">
+         </a>
+
+         <a href="https://www.instagram.com/j.e.n.t.r.i.x.a.u.t.o.garage/p/DNoARiWM0Q5/" target="_blank">
+           <img src="{{ url_for('static', filename='Cars/instagram.jpg') }}" alt="Instagram">
+         </a>
+
+          <a href="https://www.facebook.com/profile.php?id=100075883675314&__tn__=%3C" target="_blank">
+           <img src="{{ url_for('static', filename='Cars/facebook.png') }}" alt="Facebook">
+          </a>
+
+        </div>
+
+        <p>Subscribe to our newsletter for offers & tips</p>
+        <div class="subscribe">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </div>
+     </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+     <hr>
+     <p>© 2026 Willy Auto Perfection Garage. All rights reserved.</p>
+     <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+   </div>
+ </footer>
+  
+
+</body>
+</html>

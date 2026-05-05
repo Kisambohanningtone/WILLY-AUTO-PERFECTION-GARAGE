@@ -1,0 +1,15 @@
+flask
+gunicorn
+mysql-connector-python
+requests
+python-dotenv
+pytest
+pytest-cov
+coverage
+flake8
+black
+isort
+mypy
+pre-commit
+pytest-mock
+pytest-cov
